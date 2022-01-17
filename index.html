@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework14.1</title>
+</head>
+
+<body>
+    <label for="enterNumberFirst" name="enternumber">Введите первое число:</label>
+    <p><input type="number" placeholder="Введите число" id="enterNumberfirst"></p>
+    <label for="enterNumberSecond" name="enternumber">Введите второе число:</label>
+    <p><input type="number" placeholder="Введите число" id="enterNumberSecond"></p>
+    <div class="btn">
+        <input type="button" value="+" onclick="calcAddition();">
+        <input type="button" value="-" onclick="calcSubtraction();">
+        <input type="button" value="*" onclick="calcMultiplication()">
+        <input type="button" value="/" onclick="calcDivision()">
+    </div>
+    <br>
+    <div> Результат:
+        <div id="result">
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
